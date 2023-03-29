@@ -1,4 +1,4 @@
-# Can Single-Pass Contrastive Learning Work for Both Homophilic and Heterophilic Graph? (SPGCL)
+# Single-Pass Contrastive Learning Can Work for Both Homophilic and Heterophilic Graph (SPGCL)
 
 ## Prepare dataset
 1. Download the dataset from [link](https://github.com/CUAI/Non-Homophily-Large-Scale).
