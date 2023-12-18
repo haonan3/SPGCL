@@ -25,15 +25,20 @@ bash run.sh
 
 ## :open_book: Why Single-Pass GCL?
 
-### Dual-Pass GCL
-Traditional GCL techniques typically require two forward passes for each instance to construct the contrastive loss. This process is computationally intensive and less efficient, especially when dealing with large datasets.
+### Single-Pass Design
+SPGCL eliminates the need for two forward passes per instance, a common requirement in traditional graph contrastive learning, and Significantly reduces computational overhead compared to dual-pass methods.
+![]([https://github.com/RAIVNLab/sugar-crepe/blob/main/assets/sugarcrepe_eval.png](https://github.com/haonan3/SPGCL/blob/main/results/SPGCL_pipeline.png)?raw=true)
 
-
-### Performance on Heterophilic Graphs
-Most GCL methods are designed with homophilic graphs in mind, where connected nodes usually have similar labels. However, their effectiveness is not well-established on heterophilic graphs, where connected nodes often have different labels. This gap limits the applicability of these methods in diverse real-world scenarios where heterophily is common.
+### Applicability to Heterophilic Graphs
+Effectively works on both homophilic (where connected nodes have similar labels) and heterophilic graphs (where connected nodes typically have different labels). SPGCL expands the scope of graph contrastive learning to more diverse real-world scenarios.
 
 ### Performance Guarantees
-SP-GCL is theoretically designed to perform effectively on both homophilic and heterophilic graphs, expanding its applicability.
+Theoretical analysis offers strong performance guarantees for the minimizer of the loss on downstream tasks, which ensures reliability and predictability in various applications.
+
+### Empirical Evidence 
+From tests on 14 benchmark datasets, we show that SP-GCL can match or surpass existing methods in performance while reducing computational overhead, making it a more practical and efficient choice for real-world graph analysis tasks​​.
+
+![]([https://github.com/RAIVNLab/sugar-crepe/blob/main/assets/sugarcrepe_eval.png](https://github.com/haonan3/SPGCL/blob/main/results/SPGCL_exp.png)?raw=true)
 
 
 ## :paperclip:Citation
