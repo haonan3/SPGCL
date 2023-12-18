@@ -23,7 +23,20 @@ bash run.sh
 ``
 
 
-# Citation
+## :open_book: Why Single-Pass GCL?
+
+### Dual-Pass GCL
+Traditional GCL techniques typically require two forward passes for each instance to construct the contrastive loss. This process is computationally intensive and less efficient, especially when dealing with large datasets.
+
+
+### Performance on Heterophilic Graphs
+Most GCL methods are designed with homophilic graphs in mind, where connected nodes usually have similar labels. However, their effectiveness is not well-established on heterophilic graphs, where connected nodes often have different labels. This gap limits the applicability of these methods in diverse real-world scenarios where heterophily is common.
+
+### Performance Guarantees
+SP-GCL is theoretically designed to perform effectively on both homophilic and heterophilic graphs, expanding its applicability.
+
+
+## :paperclip:Citation
 
 ```
 @article{
