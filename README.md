@@ -41,7 +41,7 @@ From tests on 14 benchmark datasets, we show that SP-GCL can match or surpass ex
 
 
 ## :paperclip:Citation
-
+If you find this repository useful, please consider citing:
 ```
 @article{
 wang2023singlepass,
