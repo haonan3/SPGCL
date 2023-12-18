@@ -1,7 +1,7 @@
 # Single-Pass Contrastive Learning Can Work for Both Homophilic and Heterophilic Graph (SPGCL)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2212.13350-b31b1b.svg)](https://arxiv.org/abs/2212.13350)
-[![TMLR](https://img.shields.io/badge/OpenReview-8A2BE2.svg)]([https://arxiv.org/abs/2212.13350](https://openreview.net/forum?id=244KePn09i&noteId=ea3TPPeLws))
+[![TMLR](https://img.shields.io/badge/OpenReview-8A2BE2.svg)](https://openreview.net/forum?id=244KePn09i&noteId=ea3TPPeLws)
 
 This is the official repository of Single-Pass Graph Contrastive Learning (SPGCL), which is an agumentation-free GCL method introduced in our paper [Single-Pass Contrastive Learning Can Work for Both Homophilic and Heterophilic Graph](https://arxiv.org/abs/2211.10890).
 
