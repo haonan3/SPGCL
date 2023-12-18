@@ -27,7 +27,7 @@ bash run.sh
 
 ### Single-Pass Design
 SPGCL eliminates the need for two forward passes per instance, a common requirement in traditional graph contrastive learning, and Significantly reduces computational overhead compared to dual-pass methods.
-![]([https://github.com/RAIVNLab/sugar-crepe/blob/main/assets/sugarcrepe_eval.png](https://github.com/haonan3/SPGCL/blob/main/results/SPGCL_pipeline.png)?raw=true)
+![](https://github.com/haonan3/SPGCL/blob/main/results/SPGCL_pipeline.png?raw=true)
 
 ### Applicability to Heterophilic Graphs
 Effectively works on both homophilic (where connected nodes have similar labels) and heterophilic graphs (where connected nodes typically have different labels). SPGCL expands the scope of graph contrastive learning to more diverse real-world scenarios.
@@ -37,8 +37,7 @@ Theoretical analysis offers strong performance guarantees for the minimizer of t
 
 ### Empirical Evidence 
 From tests on 14 benchmark datasets, we show that SP-GCL can match or surpass existing methods in performance while reducing computational overhead, making it a more practical and efficient choice for real-world graph analysis tasks​​.
-
-![]([https://github.com/RAIVNLab/sugar-crepe/blob/main/assets/sugarcrepe_eval.png](https://github.com/haonan3/SPGCL/blob/main/results/SPGCL_exp.png)?raw=true)
+![](https://github.com/haonan3/SPGCL/blob/main/results/SPGCL_exp.png?raw=true)
 
 
 ## :paperclip:Citation
